@@ -1,0 +1,38 @@
+{
+  "name": "MacDownRender",
+  "version": "0.1.0",
+  "summary": "A short description of MacDownRender.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/MacDownRender",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "CodeEagle": "stasura@hotmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/MacDownRender.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "osx": "10.8"
+  },
+  "source_files": "MacDownRender/Classes/**/*",
+  "resource_bundles": {
+    "MacDownRender": [
+      "MacDownRender/Assets/*"
+    ]
+  },
+  "dependencies": {
+    "handlebars-objc": [
+      "~> 1.4"
+    ],
+    "YAML-Framework": [
+      "~> 0.0.2"
+    ],
+    "PAPreferences": [
+      "~> 0.4"
+    ]
+  }
+}

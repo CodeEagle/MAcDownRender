@@ -1,0 +1,8 @@
+use_frameworks!
+target 'MacDownRenderTests' do
+  pod 'MacDownRender', :path => '../'
+end
+
+target 'App' do
+    pod 'MacDownRender', :path => '../'
+end

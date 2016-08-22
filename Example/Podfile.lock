@@ -1,0 +1,28 @@
+PODS:
+  - handlebars-objc (1.4.4)
+  - LibYAML (0.1.4)
+  - MacDownRender (0.1.0):
+    - handlebars-objc (~> 1.4)
+    - PAPreferences (~> 0.4)
+    - YAML-Framework (~> 0.0.2)
+  - PAPreferences (0.5)
+  - YAML-Framework (0.0.2):
+    - LibYAML (~> 0.1.4)
+
+DEPENDENCIES:
+  - MacDownRender (from `../`)
+
+EXTERNAL SOURCES:
+  MacDownRender:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  handlebars-objc: ffad49df7e6dd17630ecccb2ef5e91cbaf12ad70
+  LibYAML: 3af2c5adf3a40dff936d087aa6a77edc10036bc5
+  MacDownRender: 6300396852149367464959f57aa700e07c9e068b
+  PAPreferences: 9f0ffb1e67174a0df001af9d3320166ceb9ee6f5
+  YAML-Framework: 6fe698e19d39d778829f5937e39d1e6bc12afd7b
+
+PODFILE CHECKSUM: dc5f1397213a52db109cc226a60592d371165ba3
+
+COCOAPODS: 1.0.0

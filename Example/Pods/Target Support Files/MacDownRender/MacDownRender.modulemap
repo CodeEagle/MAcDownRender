@@ -1,0 +1,6 @@
+framework module MacDownRender {
+  umbrella header "MacDownRender-umbrella.h"
+
+  export *
+  module * { export * }
+}

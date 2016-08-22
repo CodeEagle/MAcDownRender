@@ -1,0 +1,6 @@
+framework module HBHandlebars {
+  umbrella header "handlebars-objc-umbrella.h"
+
+  export *
+  module * { export * }
+}
